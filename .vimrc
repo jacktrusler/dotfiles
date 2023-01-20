@@ -2,7 +2,6 @@
 " Variables
 " ----------------------------
 let mapleader = " "
-nnoremap <leader>so <CMD>w<CR><CMD>so%<CR>
 let g:netrw_banner=0 "turns netrw banner off
 let g:netrw_liststyle=3 "changes the way the explorer tree looks
 
@@ -45,7 +44,8 @@ colorscheme slate
 " ----------------------------
 " Remaps
 " ----------------------------
-nnoremap ,edit :vsplit $MYVIMRC<CR>
+nnoremap ,ed :vsplit $MYVIMRC<CR>
+nnoremap ,s <CMD>w<CR><CMD>so%<CR>
 
 let mapleader = " "
 " Normal Mode
